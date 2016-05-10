@@ -1,6 +1,8 @@
 ---
-
+layout: index
 ---
+
+[Back to top](../index.html)
 
 # Options for GCAM Documentation Hosting
 

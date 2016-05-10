@@ -1,5 +1,5 @@
 ---
-
+layout: index
 ---
 
 # The foo.md test file.
