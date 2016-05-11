@@ -1,6 +1,6 @@
 {
   "name": "Gcam-docs-test",
   "tagline": "Testing the suitability of github pages for hosting GCAM documentation since 2016",
-  "body": "# Some sample stuff\r\n\r\n* [This file](index.html)\r\n* [Another file](foo.html)\r\n* [A file in a subdir](v1.0/gcam-doc-options.html)\r\n",
+  "body": "# Some sample stuff\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
