@@ -4,8 +4,6 @@ layout: index
 
 [Back to top](index.html)
 
-![An image](gcam-figs/markdown.png)
-
 # Options for GCAM Documentation Hosting
 
 I've narrowed down the options for hosting the GCAM documentation to
@@ -17,21 +15,6 @@ work you have to put into deciding how the product should look.
 ## Free hosting
 
 All of the options in this section are hosted free of charge.
-
-* **GitHub Wiki**:  This is the most basic option.  You don't get a
-  lot of control over how the pages look, but working with content is
-  very easy.  You can edit pages online using GitHub's page editor, or
-  locally using a variety of markup formats (including the very simple
-  markdown format used in this document).  The pages are linked from
-  the GitHub repository, and we could use GitHub's account permissions
-  to give write access to whomever we want.  
-  
-  The biggest downside to GitHub Wikis is that although the individual
-  pages are stored in a git repository (and thus versioned), there
-  isn't any way to designate a particular snapshot as giving the
-  complete documentation for a particular version of GCAM.  (You could
-  create a tag in the wiki repository, but there is no way to get the
-  wiki to display that version.)
   
 * **GitHub Pages**:  This is a more elaborate option provided by
   GitHub.  It uses the Jekyll content management system.  As a result,
@@ -61,14 +44,6 @@ All of the options in this section are hosted free of charge.
   MediaWiki hosting services, both free and paid.  The full list is
   available at https://www.mediawiki.org/wiki/Hosting_services .
 
-## Paid hosting
-
-* **Confluence**:  Atlassian offers a hosted version of Confluence.
-  The cost scales with the number of user accounts, but you can set it
-  up to allow anonymous users to read the content.  All in all, it
-  doesn't really seem set up to do what we want to do.  Most of the
-  advantages of confluence are lost when your users don't have
-  logins.
 
 ## Customized domains
 

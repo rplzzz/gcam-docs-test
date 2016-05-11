@@ -1,10 +1,11 @@
 ---
 layout: index
+title: Some Sample Stuff
 ---
 
-# Some sample stuff
+This is the new version of the index.
 
-* [This file](index.html)
-* [Another file](foo.html)
-* [A file in a subdir](v1.0/gcam-doc-options.html)
+* [GCAM Documentation Options (Revised)](gcam-doc-options.html)
+* [A file of random gibberish](foo.html)
+* [Version 1.0](v1.0)
 
