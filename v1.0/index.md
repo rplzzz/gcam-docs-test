@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Some Sample Stuff
+gcam-version: v1.0
 ---
 
 This is the original version of the index

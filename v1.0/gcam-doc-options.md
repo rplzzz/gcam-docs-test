@@ -1,5 +1,6 @@
 ---
 layout: index
+gcam-version: v1.0
 ---
 
 [Back to top](index.html)

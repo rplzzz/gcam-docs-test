@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Gcam-docs-test</title>
+    <title>GCAM {{page.gcam-version}} Documentation: {{page.title}}</title>
 
     <link rel="stylesheet" href="{{site.github.url}}/stylesheets/styles.css">
     <link rel="stylesheet" href="{{site.github.url}}/stylesheets/github-dark.css">
@@ -18,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Gcam Docs Test</h1>
+        <h1>Gcam Docs Test {{page.gcam-version}}</h1>
         <p>Testing the suitability of github pages for hosting GCAM documentation since 2016</p>
         <p class="view"><a href="https://github.com/rplzzz/gcam-docs-test">View the Project on GitHub <small>rplzzz/gcam-docs-test</small></a></p>
         <ul>
@@ -26,6 +26,12 @@
           <li><a href="https://github.com/rplzzz/gcam-docs-test/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/rplzzz/gcam-docs-test">View On <strong>GitHub</strong></a></li>
         </ul>
+	<hr/>
+	<p class="nav">
+	  <a href="{{site.github.url}}/index.html">[Home]</a></li>
+	  <a href="index.html">[Index{% if page.gcam-version %}
+	  ({{page.gcam-version}}){% endif %}]</a></li>
+	</p>
       </header>
       <section>
         <h1>

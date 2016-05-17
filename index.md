@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Some Sample Stuff
+current-version: v1.1
 ---
 
 This is the new version of the index.

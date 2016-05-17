@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Math Demo
+current-version: v1.1
 ---
 
 Block math:

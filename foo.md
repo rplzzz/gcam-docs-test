@@ -1,6 +1,7 @@
 ---
 layout: index
 title: A Test Page
+current-version: v1.1
 ---
 
 I guess this will turn out to be "foo.html" on the site?  The contents
