@@ -18,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Gcam Docs Test {{page.gcam-version}}</h1>
+        <h1>GCAM Docs Test {{page.gcam-version}}</h1>
         <p>Testing the suitability of github pages for hosting GCAM documentation since 2016</p>
         <p class="view"><a href="https://github.com/rplzzz/gcam-docs-test">View the Project on GitHub <small>rplzzz/gcam-docs-test</small></a></p>
         <ul>
@@ -28,9 +28,15 @@
         </ul>
 	<hr/>
 	<p class="nav">
-	  <a href="{{site.github.url}}/index.html">[Home]</a></li>
+	  <a href="{{site.github.url}}/index.html">[Home]</a>
 	  <a href="index.html">[Index{% if page.gcam-version %}
-	  ({{page.gcam-version}}){% endif %}]</a></li>
+	    ({{page.gcam-version}}){% endif %}]</a>
+	  {% if page.prev %}
+	  <a href="{{page.prev}}">[Previous page]</a>
+	  {% endif %}
+	  {% if page.next %}
+	  <a href="{{page.next}}">[Next page]</a>
+	  {% endif %}
 	</p>
       </header>
       <section>

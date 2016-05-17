@@ -1,6 +1,7 @@
 ---
 layout: index
 title: Some Sample Stuff
+next: foo.html
 current-version: v1.1
 ---
 

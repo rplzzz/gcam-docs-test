@@ -1,7 +1,9 @@
 ---
 layout: index
 title: Math Demo
-current-version: v1.1
+prev: index.html
+next: gcam-doc-options.html
+current-version: v1.1 
 ---
 
 Block math:

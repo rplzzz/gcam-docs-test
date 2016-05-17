@@ -1,6 +1,8 @@
 ---
 layout: index
 title: A Test Page
+prev: index.html
+next: math.html
 current-version: v1.1
 ---
 

@@ -1,5 +1,8 @@
 ---
 layout: index
+title: Options for GCAM Documentation Hosting
+prev: gcam-doc-options.html
+current-version: v1.1
 ---
 
 [Back to top](index.html)
